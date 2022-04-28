@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 0.75rem;
+  background-color: #142f2a;
+}
+
+section {
+  width: 60%;
+  margin: 0.5rem auto 0;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 0 0;
+  background-color: #255135;
+  box-shadow: 5px 5px 60px 5px;
+}
+
+footer {
+  border-radius: 5px;
+  border: 1.5px solid black;
+  width: 60%;
+  margin: 0.5rem auto 0;
+  padding: 0.5rem 0;
+  background-color: rgb(136, 104, 24);
+}
+
+canvas {
+  cursor: url('Images/sword.png'), default;
+  display: block;
+  margin: 0 auto 1rem;
+  box-shadow: 1px 1px 60px 1px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  transition: width .5s, height .5s, top .5s, left .5s;
+}
+
+.button {
+  font-weight: bold;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  background-color: #ac8b38;
+  /* color: white; */
+  padding: 0.25rem 1rem;
+  margin: 0rem 0.5rem 1rem;
+}
+
+.button:hover {
+  background-color:	#b8a471;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 2rem;
+  margin: 0rem 1rem 1rem;
+  color: #ac8b38;
+}
+
+#banner {
+  margin: 0.25rem auto 0rem;
+  width: 8%;
+}
